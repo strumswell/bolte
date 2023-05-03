@@ -1,4 +1,5 @@
 import Navigation from "@/components/navigation";
+import Photos from "@/components/photos";
 import Image from "next/image";
 
 export default function Home() {
@@ -78,6 +79,7 @@ export default function Home() {
             </div>
           </div>
         </div>
+        <Photos />
       </div>
     </main>
   );
