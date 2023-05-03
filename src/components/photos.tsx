@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Photos() {
   return (
-    <div className="bg-zinc-900 mt-4 rounded-3xl">
+    <div className="bg-zinc-900 mt-4 rounded-3xl" id="photos">
       <div className="p-4 pl-10 pr-10">
         <h2 className="text-5xl font-medium mt-5 mb-10 leading-10">Some of my photos.</h2>
         <div className="flex flex-row gap-8 h-auto">
