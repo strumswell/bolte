@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Project(props: { title: string; description: string; url: string; picture: string }) {
   return (
-    <div className="bg-zinc-900 mt-4 rounded-3xl basis-1/2" id="projects">
+    <div className="bg-zinc-900 ml-4 mr-4 sm:ml-0 sm:mr-0 rounded-3xl basis-1/2 border border-zinc-800" id="projects">
       <div className="p-4 pl-10 pr-10 mb-6">
         <div className="flex flex-row justify-between">
           <div className="basis-3/4">
@@ -16,7 +16,7 @@ export default function Project(props: { title: string; description: string; url
               viewBox="0 0 24 24"
               stroke-width="1.5"
               stroke="currentColor"
-              className="absolute end-0 bg-zinc-200 text-zinc-800 rounded-full p-2 w-14 h-14 transition duration-500 hover:scale-110 hover:bg-zinc-700 hover:text-zinc-100"
+              className="absolute end-0 bg-zinc-200 text-zinc-800 rounded-full p-2 w-14 h-14 transition duration-500 hover:scale-110"
             >
               <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25" />
             </svg>

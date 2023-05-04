@@ -16,7 +16,7 @@ export default function Home() {
         <Socials />
         <About />
         <Photos />
-        <div className="flex gap-4">
+        <div className="flex flex-col sm:flex-row gap-4 mt-4">
           <Project
             title="Oscar°"
             description="A SwiftUI weather app"

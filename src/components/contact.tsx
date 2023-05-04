@@ -1,6 +1,6 @@
 export default function Contact() {
   return (
-    <div className="bg-zinc-900 rounded-3xl mt-4 p-12">
+    <div className="bg-zinc-900 rounded-3xl ml-4 mr-4 sm:ml-0 sm:mr-0 mt-4 p-12 border border-zinc-800">
       <div className="m-auto">
         <div className="flex justify-center">
           <svg
@@ -23,13 +23,25 @@ export default function Contact() {
         </div>
         <div className="flex justify-center mt-12">
           <a
-            className="w-full text-3xl text-center p-5 pl-10 pr-10 bg-zinc-200 text-zinc-800 shadow-2xl font-medium transition duration-500 hover:bg-zinc-500 hover:text-zinc-200 hover:scale-105 rounded-full"
-            href="mailto:hey@bolte.id"
+            className="w-full text-3xl text-center p-5 pl-10 pr-10 bg-zinc-200 text-zinc-800 shadow-2xl font-medium transition duration-500 hover:scale-105 rounded-full"
+            href={`mailto:${getMail()}`}
           >
-            hey@bolte.id
+            {getMail()}
           </a>
         </div>
       </div>
     </div>
   );
+}
+
+function getMail() {
+  if (typeof window !== "undefined") {
+    const host = window.location.hostname;
+    if (host.includes("id")) {
+      return "hey@bolte.id";
+    } else {
+      return "philipp@bolte.cloud";
+    }
+  }
+  return "philipp@bolte.cloud";
 }
