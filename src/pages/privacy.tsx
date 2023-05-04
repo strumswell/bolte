@@ -1,5 +1,6 @@
 import Footer from "@/components/footer";
 import { NextSeo } from "next-seo";
+import Link from "next/link";
 
 export default function Privacy() {
   return (
@@ -10,7 +11,7 @@ export default function Privacy() {
       />
       <main className="flex flex-col pt-5 bg-black justify-center max-w-screen-xl mx-auto ">
         <div className="bg-zinc-900 p-8 rounded-2xl border border-zinc-800">
-          <a className="flex gap-3 hover:text-zinc-500" href="/">
+          <Link className="flex gap-3 hover:text-zinc-500" href="/">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -22,7 +23,7 @@ export default function Privacy() {
               <path strokeLinecap="round" strokeLinejoin="round" d="M10.5 19.5L3 12m0 0l7.5-7.5M3 12h18" />
             </svg>
             <span className="text-xl font-semibold">Back</span>
-          </a>
+          </Link>
           <h3 className="text-3xl font-semibold mt-4">Datenschutzerklärung</h3>
           <p className="text-2xl font-semibold">Allgemeiner Hinweis und Pflichtinformationen</p>
           <p className="text-xl font-semibold mt-4">Benennung der verantwortlichen Stelle</p>
