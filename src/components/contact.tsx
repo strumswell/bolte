@@ -19,7 +19,7 @@ export default function Contact() {
           </svg>
         </div>
         <div className="flex justify-center mt-8">
-          <p className="text-5xl font-medium">Wanna talk?</p>
+          <h2 className="text-5xl font-medium">Wanna talk?</h2>
         </div>
         <div className="flex justify-center mt-12">
           <a

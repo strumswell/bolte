@@ -14,7 +14,7 @@ export default function Project(props: { title: string; description: string; url
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
               viewBox="0 0 24 24"
-              stroke-width="1.5"
+              strokeWidth="1.5"
               stroke="currentColor"
               className="absolute end-0 bg-zinc-200 text-zinc-800 rounded-full p-2 w-14 h-14 transition duration-500 hover:scale-110"
             >

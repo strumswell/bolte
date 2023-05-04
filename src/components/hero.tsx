@@ -21,7 +21,7 @@ export default function Hero() {
       <div className="flex sm:basis-2/5 bg-zinc-900 rounded-3xl p-4 pl-10 pr-10 border border-zinc-800">
         <div className="flex flex-row sm:flex-col gap-10 sm:gap-4 m-auto h-fit items-center">
           <div className="flex justify-center">
-            <p className="text-5xl font-medium">Who?</p>
+            <h2 className="text-5xl font-medium">Who?</h2>
           </div>
           <div className="flex justify-center text-center sm:mt-6">
             <a
