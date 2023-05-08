@@ -7,7 +7,7 @@ export default function Hero() {
         <div className="flex flex-col gap-4 mt-5 mb-10">
           <Image
             className="object-cover rounded-full h-28 w-28 grayscale"
-            src="/about.jpeg"
+            src="/about-min.jpg"
             width={200}
             height={200}
             alt="profile picture"
