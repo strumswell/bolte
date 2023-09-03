@@ -1,7 +1,7 @@
 export default function About() {
   return (
     <div className="flex flex-col sm:flex-row gap-4 sm:mt-4 m-4 sm:ml-0 sm:mr-0">
-      <div className="sm:basis-2/5 bg-zinc-900 rounded-3xl p-4 pl-10 pr-20 border border-zinc-800">
+      <div className="sm:basis-2/5 bg-gradient-to-b from-zinc-900 to-zinc-950 rounded-3xl p-4 pl-10 pr-20 border border-zinc-600/80 shadow-lg shadow-zinc-700/20">
         <div className="flex flex-col gap-4 mt-5 mb-8">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -18,17 +18,17 @@ export default function About() {
             />
           </svg>
           <div className="mt-4">
-            <p className="text-6xl font-medium break-after-column">Based in Leipzig, Germany.</p>
-            <p className="text-6xl font-medium text-zinc-500">UTC+2</p>
+            <p className="text-6xl font-light break-after-column">Based in Leipzig, Germany.</p>
+            <p className="text-6xl font-light text-zinc-500">UTC+2</p>
           </div>
         </div>
       </div>
-      <div className="sm:basis-3/5 bg-zinc-900 rounded-3xl p-4 pl-10 pr-20 border border-zinc-800">
+      <div className="sm:basis-3/5 bg-gradient-to-b from-zinc-900 to-zinc-950 rounded-3xl p-4 pl-10 pr-20 border border-zinc-600/80 shadow-lg shadow-zinc-700/20">
         <div className="mt-5 mb-8 leading-10">
-          <span className="text-5xl font-medium">
-            As a software engineer, I work on the verge of established and web3 technologies.
+          <span className="text-5xl font-light">
+            Inventing new solutions on the verge of established and web3 technologies to solve actual problems.
           </span>
-          <span className="text-5xl font-medium text-zinc-500 ml-2">
+          <span className="text-5xl font-light text-zinc-500 ml-2">
             I have a strong product and business focus with a strict no-bs policy.
           </span>
         </div>

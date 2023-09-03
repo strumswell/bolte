@@ -15,7 +15,7 @@ export default function Home() {
         title="Philipp Bolte | Software Engineer"
         description="I am Philipp, a software engineer working at Spherity on Web3 and SSI solutions."
       />
-      <main className="flex flex-col pt-5 bg-black justify-center">
+      <main className="flex flex-col pt-5 justify-center">
         <div className="max-w-screen-xl mx-auto">
           <Navigation />
           <Hero />

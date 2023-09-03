@@ -1,6 +1,6 @@
 export default function Contact() {
   return (
-    <div className="bg-zinc-900 rounded-3xl ml-4 mr-4 sm:ml-0 sm:mr-0 mt-4 p-12 border border-zinc-800">
+    <div className="bg-gradient-to-b from-zinc-900 to-zinc-950 rounded-3xl ml-4 mr-4 sm:ml-0 sm:mr-0 mt-4 p-12 border border-zinc-700/80 shadow-lg shadow-zinc-700/20">
       <div className="m-auto">
         <div className="flex justify-center">
           <svg
@@ -19,11 +19,11 @@ export default function Contact() {
           </svg>
         </div>
         <div className="flex justify-center mt-8">
-          <h2 className="text-5xl font-medium">Wanna talk?</h2>
+          <h2 className="text-5xl font-light">Wanna talk?</h2>
         </div>
         <div className="flex justify-center mt-12">
           <a
-            className="w-full text-3xl text-center p-5 pl-10 pr-10 bg-zinc-200 text-zinc-800 shadow-2xl font-medium transition duration-500 hover:scale-105 rounded-full"
+            className="w-full text-3xl text-center p-5 pl-10 pr-10 bg-zinc-400 text-zinc-800 shadow-2xl font-light transition duration-500 hover:scale-105 rounded-full"
             href={`mailto:${getMail()}`}
           >
             {getMail()}

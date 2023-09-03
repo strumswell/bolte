@@ -2,12 +2,12 @@ import Image from "next/image";
 
 export default function Project(props: { title: string; description: string; url: string; picture: string }) {
   return (
-    <div className="bg-zinc-900 ml-4 mr-4 sm:ml-0 sm:mr-0 rounded-3xl basis-1/2 border border-zinc-800" id="projects">
+    <div className="bg-gradient-to-b from-zinc-950 to-zinc-900 ml-4 mr-4 sm:ml-0 sm:mr-0 rounded-3xl basis-1/2 border border-zinc-700/80 shadow-lg shadow-zinc-700/20" id="projects">
       <div className="p-4 pl-10 pr-10 mb-6">
         <div className="flex flex-row justify-between">
           <div className="basis-3/4">
-            <h2 className="text-5xl font-medium mt-5 leading-10">{props.title}</h2>
-            <h3 className="text-3xl font-medium text-zinc-500 mt-2 mb-8 leading-10">{props.description}</h3>
+            <h2 className="text-5xl font-light mt-5 leading-10">{props.title}</h2>
+            <h3 className="text-3xl font-light text-zinc-500 mt-2 mb-8 leading-10">{props.description}</h3>
           </div>
           <a className="basis-1/4 mt-5 relative" href={props.url}>
             <svg
