@@ -28,7 +28,7 @@ export default function Hero() {
               className="text-2xl lg:text-3xl p-5 pl-10 pr-10 bg-zinc-400 text-zinc-800 shadow-2xl font-light transition duration-500 hover:scale-105 rounded-full"
               href="https://www.linkedin.com/in/philipp-bolte-5148601a3/"
             >
-              Download CV
+              Check CV
             </a>
           </div>
         </div>

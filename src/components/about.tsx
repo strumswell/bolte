@@ -26,7 +26,7 @@ export default function About() {
       <div className="sm:basis-3/5 bg-gradient-to-b from-zinc-900 to-zinc-950 rounded-3xl p-4 pl-10 pr-20 border border-zinc-600/80 shadow-lg shadow-zinc-700/20">
         <div className="mt-5 mb-8 leading-10">
           <span className="text-5xl font-light">
-            Inventing new solutions on the verge of established and web3 technologies to solve actual problems.
+            Inventing new solutions on the verge of established and web3 technologies to solve real-world problems.
           </span>
           <span className="text-5xl font-light text-zinc-500 ml-2">
             I have a strong product and business focus with a strict no-bs policy.
