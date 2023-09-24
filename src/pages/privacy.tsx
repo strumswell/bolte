@@ -9,8 +9,8 @@ export default function Privacy() {
         title="Philipp Bolte | Privacy"
         description="I am Philipp, a software engineer working at Spherity on Web3 and SSI solutions."
       />
-      <main className="flex flex-col pt-5 bg-black justify-center max-w-screen-xl mx-auto ">
-        <div className="bg-zinc-900 p-8 rounded-2xl border border-zinc-800">
+      <main className="flex flex-col pt-5 justify-center max-w-screen-xl mx-auto">
+        <div className="bg-zinc-900 p-8 rounded-2xl border border-zinc-700/80">
           <Link className="flex gap-3 hover:text-zinc-500" href="/">
             <svg
               xmlns="http://www.w3.org/2000/svg"
