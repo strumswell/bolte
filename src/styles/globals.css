@@ -19,3 +19,11 @@ html {
 body {
   color: rgb(var(--foreground-rgb));
 }
+
+@font-face {
+  font-family: "SeriouslyNostalgicFine";
+  src: url("/fonts/Seriously Nostalgic Fine.woff2") format("woff2");
+  font-style: normal;
+  font-weight: normal;
+  text-rendering: optimizeLegibility;
+}

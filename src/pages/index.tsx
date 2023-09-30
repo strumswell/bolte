@@ -24,7 +24,7 @@ export default function Home() {
           <Photos />
           <div className="flex flex-col sm:flex-row gap-4 mt-4">
             <Project
-              title="Oscar°"
+              title="Oscar"
               description="A SwiftUI weather app"
               picture="/map.jpeg"
               url="https://github.com/strumswell/oscar-weather"

@@ -1,13 +1,13 @@
 export default function About() {
   return (
     <div className="flex flex-col sm:flex-row gap-4 sm:mt-4 m-4 sm:ml-0 sm:mr-0">
-      <div className="sm:basis-2/5 bg-gradient-to-b from-zinc-900 to-zinc-950 rounded-3xl p-4 pl-10 pr-20 border border-zinc-600/80 shadow-lg shadow-zinc-700/20">
+      <div className="sm:basis-2/5 bg-gradient-to-b from-zinc-800 to-zinc-950 rounded-3xl p-4 pl-10 pr-20 border border-zinc-600/80 shadow-lg shadow-zinc-700/20">
         <div className="flex flex-col gap-4 mt-5 mb-8">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
             viewBox="0 0 24 24"
-            strokeWidth="1.2"
+            strokeWidth="1"
             stroke="currentColor"
             className="w-20 h-20"
           >
@@ -18,17 +18,19 @@ export default function About() {
             />
           </svg>
           <div className="mt-4">
-            <p className="text-6xl font-light break-after-column">Based in Leipzig, Germany.</p>
-            <p className="text-6xl font-light text-zinc-500">UTC+2</p>
+            <p className="text-6xl font-nostalgic break-after-column">Based in Leipzig, Germany.</p>
+            <p className="text-6xl font-nostalgic bg-gradient-to-b from-zinc-400 to-zinc-700 bg-clip-text text-transparent">
+              UTC+2
+            </p>
           </div>
         </div>
       </div>
-      <div className="sm:basis-3/5 bg-gradient-to-b from-zinc-900 to-zinc-950 rounded-3xl p-4 pl-10 pr-20 border border-zinc-600/80 shadow-lg shadow-zinc-700/20">
+      <div className="sm:basis-3/5 sm:bg-gradient-to-b bg-zinc-950 sm:from-zinc-800 sm:to-zinc-950 rounded-3xl p-4 pl-10 pr-20 border border-zinc-600/80 shadow-lg shadow-zinc-700/20">
         <div className="mt-5 mb-8 leading-10">
-          <span className="text-5xl font-light">
+          <span className="text-6xl font-nostalgic tracking-wide">
             Inventing new solutions on the verge of established and web3 technologies to solve real-world problems.
           </span>
-          <span className="text-5xl font-light text-zinc-500 ml-2">
+          <span className="text-6xl font-nostalgic font-thin tracking-wide ml-2 bg-gradient-to-b from-zinc-400 to-zinc-700 bg-clip-text text-transparent">
             I have a strong product and business focus with a strict no-bs policy.
           </span>
         </div>

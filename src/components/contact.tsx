@@ -1,13 +1,13 @@
 export default function Contact() {
   return (
-    <div className="bg-gradient-to-b from-zinc-900 to-zinc-950 rounded-3xl ml-4 mr-4 sm:ml-0 sm:mr-0 mt-4 p-12 border border-zinc-700/80 shadow-lg shadow-zinc-700/20">
+    <div className="bg-gradient-to-b from-zinc-800 to-zinc-950 rounded-3xl ml-4 mr-4 sm:ml-0 sm:mr-0 mt-4 p-12 border border-zinc-700/80 shadow-lg shadow-zinc-700/20">
       <div className="m-auto">
         <div className="flex justify-center">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
             viewBox="0 0 24 24"
-            strokeWidth={1.5}
+            strokeWidth={1}
             stroke="currentColor"
             className="w-16 h-16"
           >
@@ -19,11 +19,13 @@ export default function Contact() {
           </svg>
         </div>
         <div className="flex justify-center mt-8">
-          <h2 className="text-5xl font-light">Wanna talk?</h2>
+          <h2 className="text-6xl font-nostalgic font-thin bg-gradient-to-b from-zinc-300 to-zinc-600 bg-clip-text text-transparent pr-2">
+            Wanna talk?
+          </h2>
         </div>
         <div className="flex justify-center mt-12">
           <a
-            className="w-full text-3xl text-center p-5 pl-10 pr-10 bg-zinc-400 text-zinc-800 shadow-2xl font-light transition duration-500 hover:scale-105 rounded-full"
+            className="w-full text-3xl text-center p-5 pl-10 pr-10 bg-gradient-to-b from-zinc-400 to-zinc-600 text-zinc-800 shadow-2xl font-nostalgic font-semibold tracking-wide transition duration-500 hover:scale-105 rounded-full"
             href={`mailto:${getMail()}`}
           >
             {getMail()}
