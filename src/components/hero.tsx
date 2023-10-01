@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Hero() {
   return (
     <div className="flex flex-col sm:flex-row gap-4 pl-4 pr-4 pb-4 sm:p-0" id="home">
-      <div className="sm:basis-3/5 bg-gradient-to-b from-zinc-950 to-zinc-800 rounded-3xl p-4 pl-10 pr-10 sm:pr-20 ring-1 ring-zinc-100/25 shadow-inner shadow-zinc-950/20">
+      <div className="sm:basis-3/5 bg-gradient-to-b from-zinc-950 to-zinc-800 rounded-3xl p-4 pl-10 pr-5 sm:pr-20 ring-1 ring-zinc-100/25 shadow-inner shadow-zinc-950/20">
         <div className="flex flex-col gap-4 mt-5 mb-10">
           <Image
             className="object-cover rounded-full h-28 w-28 grayscale"

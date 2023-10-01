@@ -5,7 +5,7 @@ export default function Navigation() {
         <p>philipp bolte.</p>
         <div className="flex gap-12">
           <a className="hover:text-zinc-300" href="#home">
-            home.
+            about.
           </a>
           <a className="hover:text-zinc-300" href="#photos">
             photos.
@@ -18,7 +18,7 @@ export default function Navigation() {
       <div className="sm:hidden backdrop-blur-lg wackdrop-brightness-90 fixed z-50 max-w-screen bottom-4 right-4 left-4 p-4 rounded-3xl ring-1 ring-zinc-100/25 shadow-inner shadow-zinc-950/20">
         <div className="grid h-full grid-cols-3 text-3xl font-nostalgic font-light">
           <a className="inline-flex flex-col items-center justify-center rounded-r-full" href="#home">
-            home.
+            about.
           </a>
           <a className="inline-flex flex-col items-center justify-center rounded-r-full" href="#photos">
             photos.
