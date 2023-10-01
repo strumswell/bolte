@@ -1,6 +1,6 @@
 export default function Contact() {
   return (
-    <div className="bg-gradient-to-b from-zinc-800 to-zinc-950 rounded-3xl ml-4 mr-4 sm:ml-0 sm:mr-0 mt-4 p-12 border border-zinc-700/80 shadow-lg shadow-zinc-700/20">
+    <div className="bg-gradient-to-b from-zinc-800 to-zinc-950 rounded-3xl ml-4 mr-4 sm:ml-0 sm:mr-0 mt-4 p-12 ring-1 ring-zinc-100/25 shadow-inner shadow-zinc-950/20">
       <div className="m-auto">
         <div className="flex justify-center">
           <svg
@@ -9,7 +9,7 @@ export default function Contact() {
             viewBox="0 0 24 24"
             strokeWidth={1}
             stroke="currentColor"
-            className="w-16 h-16"
+            className="w-16 h-16 text-zinc-400"
           >
             <path
               strokeLinecap="round"
@@ -25,7 +25,7 @@ export default function Contact() {
         </div>
         <div className="flex justify-center mt-12">
           <a
-            className="w-full text-3xl text-center p-5 pl-10 pr-10 bg-gradient-to-b from-zinc-400 to-zinc-600 text-zinc-800 shadow-2xl font-nostalgic font-medium tracking-wide transition duration-500 hover:scale-105 rounded-full"
+            className="w-fit text-3xl text-center p-5 pl-10 pr-10 bg-gradient-to-b from-zinc-300 to-zinc-600 text-zinc-800 font-nostalgic font-medium tracking-wide transition duration-500 hover:scale-105 rounded-full ring-1 ring-zinc-100/10 shadow-inner shadow-zinc-950/20"
             href={`mailto:${getMail()}`}
           >
             {getMail()}

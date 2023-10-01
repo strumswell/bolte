@@ -1,7 +1,7 @@
 export default function About() {
   return (
     <div className="flex flex-col sm:flex-row gap-4 sm:mt-4 m-4 sm:ml-0 sm:mr-0">
-      <div className="sm:basis-2/5 bg-gradient-to-b from-zinc-800 to-zinc-950 rounded-3xl p-4 pl-10 pr-20 border border-zinc-600/80 shadow-lg shadow-zinc-700/20">
+      <div className="sm:basis-2/5 bg-gradient-to-b from-zinc-800 to-zinc-950 rounded-3xl p-4 pl-10 pr-20 ring-1 ring-zinc-100/25 shadow-inner shadow-zinc-900/20">
         <div className="flex flex-col gap-4 mt-5 mb-8">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -9,7 +9,7 @@ export default function About() {
             viewBox="0 0 24 24"
             strokeWidth="1"
             stroke="currentColor"
-            className="w-20 h-20"
+            className="w-20 h-20 text-zinc-300"
           >
             <path
               strokeLinecap="round"
@@ -25,7 +25,7 @@ export default function About() {
           </div>
         </div>
       </div>
-      <div className="sm:basis-3/5 sm:bg-gradient-to-b bg-zinc-950 sm:from-zinc-800 sm:to-zinc-950 rounded-3xl p-4 pl-10 pr-20 border border-zinc-600/80 shadow-lg shadow-zinc-700/20">
+      <div className="sm:basis-3/5 sm:bg-gradient-to-b bg-zinc-950 sm:from-zinc-800 sm:to-zinc-950 rounded-3xl p-4 pl-10 pr-20 ring-1 ring-zinc-100/25 shadow-inner shadow-zinc-950/20">
         <div className="mt-5 mb-8 leading-10">
           <span className="text-6xl font-nostalgic tracking-wide">
             Inventing on the verge of established and web3 technologies to solve real-world problems.
