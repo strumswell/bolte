@@ -25,7 +25,7 @@ export default function About() {
           </div>
         </div>
       </div>
-      <div className="sm:basis-3/5 sm:bg-gradient-to-b bg-zinc-950 sm:from-zinc-800 sm:to-zinc-950 rounded-3xl p-4 pl-10 pr-20 ring-1 ring-zinc-100/25 shadow-inner shadow-zinc-950/20">
+      <div className="sm:basis-3/5 sm:bg-gradient-to-b bg-zinc-950 sm:from-zinc-800 sm:to-zinc-950 rounded-3xl p-4 pl-10 pr-10 sm:pr-20 ring-1 ring-zinc-100/25 shadow-inner shadow-zinc-950/20">
         <div className="mt-5 mb-8 leading-10">
           <span className="text-6xl font-nostalgic tracking-wide">
             Inventing on the verge of established and web3 technologies to solve real-world problems.
