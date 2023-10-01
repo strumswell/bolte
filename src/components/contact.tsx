@@ -25,7 +25,7 @@ export default function Contact() {
         </div>
         <div className="flex justify-center mt-12">
           <a
-            className="w-full text-3xl text-center p-5 pl-10 pr-10 bg-gradient-to-b from-zinc-400 to-zinc-600 text-zinc-800 shadow-2xl font-nostalgic font-semibold tracking-wide transition duration-500 hover:scale-105 rounded-full"
+            className="w-full text-3xl text-center p-5 pl-10 pr-10 bg-gradient-to-b from-zinc-400 to-zinc-600 text-zinc-800 shadow-2xl font-nostalgic font-medium tracking-wide transition duration-500 hover:scale-105 rounded-full"
             href={`mailto:${getMail()}`}
           >
             {getMail()}

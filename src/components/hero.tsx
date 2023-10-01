@@ -12,10 +12,10 @@ export default function Hero() {
             height={200}
             alt="profile picture"
           />
-          <div className="mt-4">
-            <h1 className="text-7xl font-nostalgic font-thin break-after-column">I am Philipp.</h1>
-            <p className="text-6xl font-nostalgic pb-1 font-thin tracking-wide bg-gradient-to-b from-zinc-300 to-zinc-500 bg-clip-text text-transparent">
-              A software engineer working on digital identiy at Spherity.
+          <div className="mt-4 text-6xl font-nostalgic font-thin tracking-wide">
+            <h1 className="break-after-column">I am Philipp.</h1>
+            <p className="pb-1 bg-gradient-to-b from-zinc-300 to-zinc-500 bg-clip-text text-transparent">
+              A software engineer working on digital identity at Spherity.
             </p>
           </div>
         </div>
@@ -29,7 +29,7 @@ export default function Hero() {
           </div>
           <div className="flex justify-center text-center sm:mt-6">
             <a
-              className="text-2xl lg:text-3xl p-4 pl-7 pr-7 font-nostalgic font-semibold tracking-wide bg-gradient-to-b from-zinc-400 to-zinc-600 text-zinc-800 shadow-2xl transition duration-500 hover:scale-105 rounded-full"
+              className="text-2xl lg:text-3xl p-4 pl-7 pr-7 font-nostalgic font-medium tracking-wide bg-gradient-to-b from-zinc-400 to-zinc-600 text-zinc-800 shadow-2xl transition duration-500 hover:scale-105 rounded-full"
               href="https://www.linkedin.com/in/philipp-bolte-5148601a3/"
             >
               Check CV

@@ -15,7 +15,7 @@ export default function Navigation() {
           </a>
         </div>
       </nav>
-      <div className="sm:hidden fixed z-50 max-w-screen bottom-4 right-4 left-4 p-4 bg-gradient-to-b from-zinc-800 via-zinc-950 to-zinc-800 opacity-95 rounded-3xl border border-zinc-600/80 shadow-lg shadow-zinc-700/20">
+      <div className="sm:hidden backdrop-blur-lg backdrop-brightness-90 fixed z-50 max-w-screen bottom-4 right-4 left-4 p-4 rounded-3xl border border-zinc-600/80 shadow-lg shadow-zinc-700/20">
         <div className="grid h-full grid-cols-3 text-3xl font-nostalgic font-light">
           <a className="inline-flex flex-col items-center justify-center rounded-r-full" href="#home">
             home.
