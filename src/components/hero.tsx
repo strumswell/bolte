@@ -30,7 +30,7 @@ export default function Hero() {
           <div className="flex justify-center text-center sm:mt-6">
             <a
               className="text-2xl lg:text-3xl p-4 pl-7 pr-7 font-nostalgic font-medium tracking-wide bg-gradient-to-b from-zinc-300 to-zinc-600 text-zinc-800 transition duration-500 hover:scale-105 rounded-full ring-1 ring-zinc-100/10 shadow-inner shadow-zinc-950/20"
-              href="https://www.linkedin.com/in/philipp-bolte-5148601a3/"
+              href="/assets/cv-philipp.pdf"
             >
               Check CV
             </a>
