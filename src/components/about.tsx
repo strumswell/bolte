@@ -1,15 +1,15 @@
 export default function About() {
   return (
-    <div className="flex flex-col sm:flex-row gap-4 sm:mt-4 m-4 sm:ml-0 sm:mr-0">
-      <div className="sm:basis-2/5 bg-gradient-to-b from-zinc-800 to-zinc-950 rounded-3xl p-4 pl-10 pr-20 ring-1 ring-zinc-100/25 shadow-inner shadow-zinc-900/20">
-        <div className="flex flex-col gap-4 mt-5 mb-8">
+    <div className="m-4 flex flex-col gap-4 sm:ml-0 sm:mr-0 sm:mt-4 sm:flex-row">
+      <div className="rounded-3xl bg-gradient-to-b from-zinc-800 to-zinc-950 p-4 pl-10 pr-20 shadow-inner shadow-zinc-900/20 ring-1 ring-zinc-100/25 sm:basis-2/5">
+        <div className="mb-8 mt-5 flex flex-col gap-4">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
             viewBox="0 0 24 24"
             strokeWidth="1"
             stroke="currentColor"
-            className="w-20 h-20 text-zinc-300"
+            className="h-20 w-20 text-zinc-300 duration-300 hover:rotate-6"
           >
             <path
               strokeLinecap="round"
@@ -18,19 +18,22 @@ export default function About() {
             />
           </svg>
           <div className="mt-4 tracking-wide">
-            <p className="text-6xl font-nostalgic break-after-column">Based in Leipzig, Germany.</p>
-            <p className="text-6xl font-nostalgic bg-gradient-to-b from-zinc-400 to-zinc-700 bg-clip-text text-transparent">
+            <p className="font-nostalgic break-after-column text-6xl">
+              Based in Leipzig, Germany.
+            </p>
+            <p className="font-nostalgic bg-gradient-to-b from-zinc-400 to-zinc-700 bg-clip-text text-6xl text-transparent">
               UTC+2
             </p>
           </div>
         </div>
       </div>
-      <div className="sm:basis-3/5 sm:bg-gradient-to-b bg-zinc-950 sm:from-zinc-800 sm:to-zinc-950 rounded-3xl p-4 pl-10 pr-10 sm:pr-20 ring-1 ring-zinc-100/25 shadow-inner shadow-zinc-950/20">
-        <div className="mt-5 mb-8 leading-10">
-          <span className="text-6xl font-nostalgic tracking-wide">
-            Inventing on the verge of established and web3 technologies to solve real-world problems.
+      <div className="rounded-3xl bg-zinc-950 p-4 pl-10 pr-10 shadow-inner shadow-zinc-950/20 ring-1 ring-zinc-100/25 sm:basis-3/5 sm:bg-gradient-to-b sm:from-zinc-800 sm:to-zinc-950 sm:pr-20">
+        <div className="mb-8 mt-5 leading-10">
+          <span className="font-nostalgic text-6xl tracking-wide">
+            Inventing on the verge of established and web3 technologies to solve
+            real-world problems.
           </span>
-          <span className="text-6xl font-nostalgic font-thin tracking-wide ml-2 bg-gradient-to-b from-zinc-400 to-zinc-700 bg-clip-text text-transparent">
+          <span className="font-nostalgic ml-2 bg-gradient-to-b from-zinc-400 to-zinc-700 bg-clip-text text-6xl font-thin tracking-wide text-transparent">
             I have a strong product and business focus with a no-bs policy.
           </span>
         </div>

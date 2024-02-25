@@ -1,6 +1,6 @@
 export default function Contact() {
   return (
-    <div className="bg-gradient-to-b from-zinc-800 to-zinc-950 rounded-3xl ml-4 mr-4 sm:ml-0 sm:mr-0 mt-4 p-12 ring-1 ring-zinc-100/25 shadow-inner shadow-zinc-950/20">
+    <div className="ml-4 mr-4 mt-4 rounded-3xl bg-gradient-to-b from-zinc-800 to-zinc-950 p-12 shadow-inner shadow-zinc-950/20 ring-1 ring-zinc-100/25 sm:ml-0 sm:mr-0">
       <div className="m-auto">
         <div className="flex justify-center">
           <svg
@@ -9,7 +9,7 @@ export default function Contact() {
             viewBox="0 0 24 24"
             strokeWidth={1}
             stroke="currentColor"
-            className="w-16 h-16 text-zinc-400"
+            className="h-16 w-16 text-zinc-400 duration-300 hover:scale-105"
           >
             <path
               strokeLinecap="round"
@@ -18,14 +18,14 @@ export default function Contact() {
             />
           </svg>
         </div>
-        <div className="flex justify-center mt-8">
-          <h2 className="text-6xl font-nostalgic font-thin bg-gradient-to-b from-zinc-300 to-zinc-600 bg-clip-text text-transparent pr-2">
+        <div className="mt-8 flex justify-center">
+          <h2 className="font-nostalgic bg-gradient-to-b from-zinc-300 to-zinc-600 bg-clip-text pr-2 text-6xl font-thin text-transparent">
             Wanna talk?
           </h2>
         </div>
-        <div className="flex justify-center mt-12">
+        <div className="mt-12 flex justify-center">
           <a
-            className="w-fit text-3xl text-center p-5 pl-10 pr-10 bg-gradient-to-b from-zinc-300 to-zinc-600 text-zinc-800 font-nostalgic font-medium tracking-wide transition duration-500 hover:scale-105 rounded-full ring-1 ring-zinc-100/10 shadow-inner shadow-zinc-950/20"
+            className="font-nostalgic w-fit rounded-full bg-gradient-to-b from-zinc-300 to-zinc-600 p-5 pl-10 pr-10 text-center text-3xl font-medium tracking-wide text-zinc-800 shadow-inner shadow-zinc-950/20 ring-1 ring-zinc-100/40 transition duration-500 hover:scale-105"
             href={`mailto:${getMail()}`}
           >
             {getMail()}

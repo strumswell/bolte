@@ -15,14 +15,14 @@ export default function Home() {
         title="Philipp Bolte | Software Engineer"
         description="I am Philipp, a software engineer working at Spherity on Web3 and SSI solutions."
       />
-      <main className="flex flex-col pt-5 justify-center">
-        <div className="max-w-screen-xl mx-auto">
+      <main className="flex flex-col justify-center pt-5 sm:p-5">
+        <div className="mx-auto max-w-screen-xl">
           <Navigation />
           <Hero />
           <Socials />
           <About />
           <Photos />
-          <div className="flex flex-col sm:flex-row gap-4 mt-4">
+          <div className="mt-4 flex flex-col gap-4 sm:flex-row">
             <Project
               title="Oscar"
               description="A SwiftUI weather app"
