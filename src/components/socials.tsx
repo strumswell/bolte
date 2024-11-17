@@ -9,9 +9,9 @@ export default function Socials() {
       </a>
       <a
         className="bg-gradient-to-b from-zinc-800 via-zinc-800/70 to-zinc-800 text-zinc-300 font-light rounded-3xl p-4 grow flex justify-center align-middle transition-all duration-500 hover:scale-105 ring-1 ring-zinc-100/25 shadow-inner shadow-zinc-950/20"
-        href="https://twitter.com/strumswell"
+        href="https://bsky.app/profile/bolte.id"
       >
-        Twitter.
+        Bluesky.
       </a>
       <a
         className="bg-gradient-to-b from-zinc-800 via-zinc-800/70 to-zinc-800 text-zinc-300 font-light rounded-3xl p-4 grow flex justify-center align-middle transition-all duration-500 hover:scale-105 ring-1 ring-zinc-100/25 shadow-inner shadow-zinc-950/20"
